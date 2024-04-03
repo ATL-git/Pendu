@@ -101,7 +101,7 @@ function imgAffich() {
     const image = document.createElement('img')
     image.src = ""
     imagecontainer.appendChild(image)
-    image.src = `/assets/image/${error}.png`
+    image.src = `./assets/image/${error}.png`
 
 }
 
